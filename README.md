@@ -86,6 +86,8 @@ a. Start the Mock API Server
 
 Open a terminal and navigate to your project directory. Start the json-server to serve your mock API:
 
+npm install -g json-server
+
 json-server --watch db.json --port 5000
 
 You should see output similar to this:
